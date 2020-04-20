@@ -15,7 +15,7 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
 # Another common config inclusion
 $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
